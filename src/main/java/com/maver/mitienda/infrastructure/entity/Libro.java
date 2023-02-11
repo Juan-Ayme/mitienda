@@ -36,5 +36,4 @@ public class Libro
     {
         fechaActualizacion = LocalDateTime.now();
     }
-
 }
