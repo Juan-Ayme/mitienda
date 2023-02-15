@@ -13,6 +13,8 @@ public class Book
     @Size(min = 3, max = 100)
     private String title;
     @NotBlank
+    private String description;
+    @NotBlank
     private String slug;
     @NotBlank
     private String coverRoute;

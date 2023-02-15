@@ -21,7 +21,8 @@ public interface BookMapper
                     @Mapping(source = "titulo", target = "title"),
                     @Mapping(source = "rutaPortada", target = "coverRoute"),
                     @Mapping(source = "rutaArchivo", target = "fileRoute"),
-                    @Mapping(source = "precio", target = "price")
+                    @Mapping(source = "precio", target = "price"),
+                    @Mapping(source ="descripcion", target = "description")
             }
     )
     Book toBook(Libro libro);
