@@ -14,6 +14,7 @@ public class Libro
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "idlibro")
     private Long idLibro;
+
     private String titulo;
     private String slug;
     private String descripcion;
