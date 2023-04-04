@@ -5,9 +5,6 @@ import com.maver.mitienda.domain.repository.BookRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import java.util.List;
-
-
 public class BookService implements BookServiceInterface
 {
     private final BookRepository bookRepository;

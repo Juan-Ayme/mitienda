@@ -9,9 +9,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityNotFoundException;
-import java.time.LocalDateTime;
-import java.util.List;
-import java.util.Optional;
 
 @Repository
 public class LibroRepository implements BookRepository
